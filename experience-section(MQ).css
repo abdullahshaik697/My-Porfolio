@@ -1,0 +1,110 @@
+@media screen and (max-width:1440px) {
+    .experience-section {}
+
+    .experience-title {
+        
+        padding: 40px;
+        font-size: 2.8rem;
+    }
+    
+    .exp {}
+    
+    .exp1 {
+        padding: 10px;
+        /* overflow: scroll; */
+        font-size: 1.3rem;
+    
+    }
+}
+
+@media screen and (max-width:1024px) {
+  
+    .exp1 {
+        padding: 10px;
+        overflow: scroll;
+        font-size: 1.3rem;
+    
+    }
+}
+
+@media screen and (max-width:768px) {
+     
+    .exp1 {
+        padding: 10px;
+        overflow: scroll;
+        font-size: 1.3rem;
+    
+    }
+}
+
+@media screen and (max-width:740px) { 
+    
+    .experience-section {}
+
+.experience-title {
+    
+    padding: 40px;
+    font-size: 2.2rem;
+}
+
+.exp {}
+
+.exp1 {
+    padding: 10px;
+    overflow: scroll;
+    font-size: 1rem;
+
+}
+
+}
+
+@media screen and (max-width:425px) {
+    .experience-section {}
+
+    .experience-title {
+        padding: 20px;
+        font-size: 1.9rem;
+    }
+
+    .exp {}
+
+    .exp1 {
+        padding: 10px;
+        overflow: scroll;
+        font-size: 1rem;
+
+    }
+}
+
+@media screen and (max-width:375px) {}
+
+@media screen and (max-width:320px) {
+
+    .experience-section {}
+
+    .experience-title {
+        padding: 20px;
+        font-size: 1.9rem;
+    }
+
+    .exp {}
+
+    .exp1 {
+        padding: 10px;
+        overflow: scroll;
+        font-size: 1rem;
+
+    }
+}
+
+
+
+
+/* 
+@media screen and (max-width:1440px){}
+@media screen and (max-width:1024px){}
+@media screen and (max-width:768px){}
+@media screen and (max-width:740px){}
+@media screen and (max-width:425px){}
+@media screen and (max-width:375px){}
+@media screen and (max-width:320px){} */

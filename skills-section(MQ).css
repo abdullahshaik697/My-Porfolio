@@ -1,0 +1,157 @@
+
+
+@media screen and (max-width:1440px){
+          
+.skills-section {}
+
+.skills-title {
+    padding: 40px;
+    font-size: 2.8rem;
+}
+
+
+.skill-cards {}
+
+.skill-cards .cards {
+    width: 25%;
+    height: 230px;
+    /* margin: 10px; */
+    
+}
+.cards label {
+    font-size: 3.3rem;
+}
+}
+@media screen and (max-width:1024px){
+       
+.skills-section {}
+
+.skills-title {
+    padding: 40px;
+    font-size: 2.8rem;
+}
+
+
+.skill-cards {}
+
+.skill-cards .cards {
+    width: 40%;
+    height: 230px;
+    /* margin: 10px; */
+    
+}
+.cards label {
+    font-size: 3.2rem;
+}
+}
+@media screen and (max-width:768px){
+    
+.skills-section {}
+
+.skills-title {
+    padding: 40px;
+    font-size: 2.6rem;
+}
+
+
+.skill-cards {}
+
+.skill-cards .cards {
+    width: 40%;
+    height: 200px;
+    /* margin: 10px; */
+    
+}
+.cards label {
+    font-size: 2.6rem;
+}
+}
+@media screen and (max-width:740px){
+       
+.skills-section {}
+
+.skills-title {
+    padding: 40px;
+    font-size: 2.6rem;
+}
+
+
+.skill-cards {}
+
+.skill-cards .cards {
+    width: 40%;
+    height: 200px;
+    /* margin: 10px; */
+    
+}
+.cards label {
+    font-size: 2.6rem;
+}
+}
+@media screen and (max-width:425px){
+
+    
+.skills-section {}
+
+.skills-title {
+    padding: 40px;
+    font-size: 2rem;
+}
+
+
+.skill-cards {}
+
+.skill-cards .cards {
+    width: 80%;
+    height: 220px;
+    margin: 10px;
+    
+}
+.cards label {
+    font-size: 3.2rem;
+}
+
+}
+@media screen and (max-width:375px){
+    
+    .skills-section {}
+
+    .skills-title {
+    padding: 40px;
+    font-size: 2rem;
+}
+
+
+.skill-cards {}
+
+.skill-cards .cards {
+    width: 80%;
+    height: 200px;
+    /* margin: 10px; */
+    
+}
+.cards label {
+    font-size: 2.6rem;
+}
+
+}
+@media screen and (max-width:320px){} 
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@media screen and (max-width:1440px){}
+@media screen and (max-width:1024px){}
+@media screen and (max-width:768px){}
+@media screen and (max-width:740px){}
+@media screen and (max-width:425px){}
+@media screen and (max-width:375px){}
+@media screen and (max-width:320px){} */

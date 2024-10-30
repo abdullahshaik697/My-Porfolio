@@ -1,8 +1,97 @@
 
-@media screen and (max-width:1440px){}
-@media screen and (max-width:1024px){}
-@media screen and (max-width:768px){}
-@media screen and (max-width:740px){}
+@media screen and (max-width:1440px){
+    .followers-section {
+        flex-wrap: wrap;
+        /* justify-content: space-a; */
+    }
+    
+    .box {
+        width: 22%;
+        margin: 10px;
+        align-items: center;
+        height: fit-content;
+        padding: 3%;
+    }
+    
+    .box h1 {
+        font-size: 3.9rem;
+    }
+    
+    .box label {
+        font-size: 1.5rem;
+      }
+}
+@media screen and (max-width:1024px){
+    .followers-section {
+        flex-wrap: wrap;
+        /* justify-content: space-a; */
+    }
+    
+    .box {
+        width: 22%;
+        margin: 10px;
+        align-items: center;
+        height: fit-content;
+        padding: 5%;
+    }
+    
+    .box h1 {
+        font-size: 3rem;
+    }
+    
+    .box label {
+        font-size: 1.3rem;
+        /* text-wrap: wrap; */
+    }
+}
+@media screen and (max-width:768px){
+       
+.followers-section {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box {
+    width: 35%;
+    margin: 10px;
+    align-items: center;
+    height: fit-content;
+    padding: 5%;
+}
+
+.box h1 {
+    font-size: 3.3rem;
+}
+
+.box label {
+    font-size: 1.4rem;
+}
+}
+@media screen and (max-width:740px){
+    
+.followers-section {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.box {
+    width: 35%;
+    margin: 10px;
+    align-items: center;
+    height: fit-content;
+    padding: 5%;
+}
+
+.box h1 {
+    font-size: 3rem;
+}
+
+.box label {
+    font-size: 1rem;
+}
+
+}
 @media screen and (max-width:425px){
        
 .followers-section {
@@ -24,42 +113,22 @@
 }
 
 .box label {
-    font-size: 1rem;
+    font-size: .8rem;
 }
+
 }
-@media screen and (max-width:375px){}
+@media screen and (max-width:375px){
+    
+.box label {
+    font-size: .7rem;
+}
+
+}
 @media screen and (max-width:320px){}
 
-/*     
-.followers-section {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
 
-.box {
-    width: 40%;
-    margin: 10px;
-    align-items: center;
-    height: fit-content;
-    padding: 2%;
-}
-
-.box h1 {
-    font-size: 2.2rem;
-}
-
-.box label {
-    font-size: 1rem;
-}
-
-}
-
-
- */
-
-
-/* @media screen and (max-width:1440px){}
+/* 
+@media screen and (max-width:1440px){}
 @media screen and (max-width:1024px){}
 @media screen and (max-width:768px){}
 @media screen and (max-width:740px){}

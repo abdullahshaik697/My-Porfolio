@@ -12,7 +12,7 @@
 
 html,
 body {
-    /* background: #000; */
+    background: #040D12;
     width: 100%;
     height: 100%;
 }
@@ -24,8 +24,8 @@ li {
 a {
     text-decoration: none;
     font-size: 1.4rem;
-    color: black;
-    /* color: var(--black); */
+   
+    color: white;
 }
 
 .container {
@@ -35,28 +35,29 @@ a {
 .nav {
     background: transparent;
     width: 100%;
-    /* height: max-content; */
+  
 }
 
 .nav-container {
     width: 100%;
     /* border: 1px solid red; */
-    height: 80px;
+    height: fit-content;
+    padding: 20px 10px 20px 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.nav-menu {
+#nav-menu {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 #nav-title {
     font-size: 2rem;
-    /* color: var(--black); */
-    color: black;
+    color: white;
 }
 
 .nav-links {
@@ -68,6 +69,17 @@ a {
 .nav-links:hover {
     background-color: rgb(233, 233, 233);
     transition: all .3s ease-in;
+    color: #040D12;
+}
+.menu-icon{
+    display: inline-block;
+    width: fit-content;
+    display: none;
+}
+#menu-bars{
+    font-size: 1.8rem;
+    color: white;
+    
 }
 
 
@@ -75,8 +87,7 @@ a {
 
 .home-section {
     padding: 200px;
-    background-color: #d3d3d3;
-    /* border: 1px solid greenyellow; */
+    background-color:#183D3D;
 }
 
 .home-container {
@@ -100,8 +111,9 @@ a {
     width: 100%;
     text-wrap: nowrap;
     display: inline-block;
+    color: white;
     overflow: hidden;
-    border-right: 5px solid black;
+    border-right: 5px solid #5C8374;
     animation: typing 3s steps(20) alternate infinite,
         cursor 0.4s infinite alternate;
 }
@@ -124,15 +136,17 @@ a {
 
 .home-subtitle {
     font-size: 1.5rem;
+    color: white;
     font-weight: 300;
     text-transform: uppercase;
 }
 
-/* Service */
+/* Skills */
 
 .skills-section {
     width: 100%;
-    background-color: #887977;
+    background-color: #183D3D;
+    /* background-color: #5C8374; */
     height: fit-content;
     /* border: 2px solid red; */
 }
@@ -140,6 +154,7 @@ a {
 .skills-title {
     padding: 40px;
     font-size: 3rem;
+    color: white;
     font-weight: 650;
 }
 
@@ -199,17 +214,57 @@ a {
 }
 
 
+/* Followers Container Start */
+
+.followers-section {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    height: fit-content;
+    padding: 2%;
+    background-color: chocolate;
+
+}
+
+.box {
+    display: inline-flex;
+    border: 5px solid rgb(94, 255, 35);
+    width: 20%;
+    align-items: center;
+    background-color: black;
+    color: white;
+
+    flex-direction: column;
+    height:20vh;
+    padding: 2%;
+}
+
+.box h1 {
+    font-size: 3rem;
+    text-align: center;
+    text-wrap: nowrap;
+}
+
+.box label {
+    text-wrap: nowrap;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+/* Followers Container End*/
 /* Experience */
 
 .experience-section {
     width: 100%;
     height: fit-content;
-    background-color: #887eaf;
+    background-color: #183D3D;
+    /* background-color: #5C8374; */
     /* border: 2px solid red; */
     padding-bottom: 80px;
 }
 
 .experience-title {
+    color: white;
     padding: 40px;
     font-size: 3rem;
     font-weight: 650;
@@ -235,7 +290,10 @@ a {
     width: 90%;
     height: 200px;
     border-radius: 20px;
-    background-color: rgb(199, 199, 199);
+    /* background-color: #183D3D;
+    background-color: #5C8374; */
+    background-color: #93B1A6;
+    
 }
 
 /* Projects */
@@ -246,9 +304,14 @@ a {
     height: fit-content;
     /* border: 2px solid red; */
     padding-bottom: 80px;
+    
+    background-color: #183D3D;
+    /* background-color: #5C8374; */
+    /* background-color: #93B1A6; */
 }
 
 .project-title {
+    color: white;
     padding: 40px;
     font-size: 3rem;
     font-weight: 650;
@@ -311,12 +374,16 @@ a {
 /* Reviews */
 
 .review-section {
-    background-color: #fea987;
+    
+    background-color: #183D3D;
+    /* background-color: #5C8374;
+    background-color: #93B1A6; */
     width: 100%;
     height: 500px;
 }
 
 .review-title {
+    color: white;
     padding: 40px;
     font-size: 3rem;
     font-weight: 650;
@@ -329,6 +396,7 @@ a {
 .swiper {
     width: 100%;
     height: 300px;
+    
     margin: 20px auto;
 }
 
@@ -338,10 +406,13 @@ a {
     justify-content: space-around;
     text-align: center;
     border-radius: 20px;
+    
+    /* background-color: #5C8374; */
+    background-color: #93B1A6;
     padding: 2%;
     color: white;
     font-size: 18px;
-    background: #1c095a;
+    /* background: #1c095a; */
     transition: .5s ease-in;
 }
 
@@ -354,12 +425,15 @@ a {
 
 .swiper-slide h2 {
     row-gap: 20px;
+    color: #183D3D;
     margin-bottom: 9%;
     /* display: inline-block; */
 }
 
 .swiper-slide p {
     margin-bottom: 9%;
+    color: #183D3D;
+    font-weight: 600;
     /* display: inline-block; */
 }
 
@@ -370,40 +444,6 @@ a {
 
 /* Swiper CSS End */
 
-/* Followers Container Start */
-
-.followers-section {
-    display: inline-flex;
-    width: 100%;
-    justify-content: space-between;
-    height: fit-content;
-    padding: 2%;
-    background-color: chocolate;
-
-}
-
-.box {
-    display: inline-flex;
-    border: 5px solid rgb(94, 255, 35);
-    width: 20%;
-    align-items: center;
-    background-color: black;
-    color: white;
-
-    flex-direction: column;
-    height: 20vh;
-    padding: 2%;
-}
-
-.box h1 {
-    font-size: 3rem;
-}
-
-.box label {
-    font-size: 1.3rem;
-}
-
-/* Followers Container End*/
 /* Contact Me Container Start*/
 .contact-section {
     background-color: #fea943;
@@ -470,3 +510,9 @@ a {
     height: 70%;
     width: 80%;
 }
+
+/*  #040D12
+    #183D3D
+    #5C8374
+    #93B1A6 */
+

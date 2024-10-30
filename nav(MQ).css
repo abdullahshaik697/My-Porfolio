@@ -1,0 +1,30 @@
+@media screen and (max-width:740px) {
+    #nav-menu  {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0%;
+        flex-direction: column;
+        text-align: center;
+        background-color: #040D12;
+        overflow: hidden;
+        margin-top: -10px;
+    }
+    .menu-icon{
+        transition: 29s all ease-in;
+        display: block;   
+    }
+    .nav-items {padding: 20px;}
+}
+    @media screen and (max-width:320px) {
+    #nav-title{
+        font-size: 1.3rem;
+    }
+    .nav-links {
+        font-size: 1.1rem;
+    }
+    #menu-bars{
+        font-size: 1.4rem;
+    }
+}
+

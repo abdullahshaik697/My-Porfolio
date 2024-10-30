@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav(MQ).css">
+    <link rel="stylesheet" href="home-section(MQ).css">
+    <link rel="stylesheet" href="followers-section(MQ).css">
+
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,13 +26,16 @@
     <nav class="nav">
         <div class="nav-container container">
             <h2 id="nav-title">Developer.</h2>
-            <ul class="nav-menu">
+            <ul id="nav-menu" >
                 <li class="nav-items"><a href="#nav-title" class="nav-links">Home</i></a></li>
                 <li class="nav-items"><a href="#skills" class="nav-links">Skills </a></li>
                 <li class="nav-items"><a href="#experience" class="nav-links">Experience </a></li>
                 <li class="nav-items"><a href="#project" class="nav-links">Projects </a></li>
                 <li class="nav-items"><a href="#" class="nav-links">Contact Me </a></li>
             </ul>
+            <div class="menu-icon">
+                <i class="fa-solid fa-bars" id="menu-bars" onclick="toggleMenu()"></i>
+            </div>
         </div>
     </nav>
 
